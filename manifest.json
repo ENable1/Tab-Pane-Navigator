@@ -1,0 +1,9 @@
+{
+	"id": "tab-pane-navigator",
+	"name": "Tab Pane Navigator",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Adds commands to navigate between panes using the keyboard.",
+	"author": "ENable1",
+	"isDesktopOnly": true
+}
