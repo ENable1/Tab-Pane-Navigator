@@ -5,7 +5,7 @@ import { registerCommands } from "./commands";
 
 export default class TabPaneNavigator extends Plugin {
 
-	async onload() {
+	onload() {
 		registerCommands(this);
 	}
 
