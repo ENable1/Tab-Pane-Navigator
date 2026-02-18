@@ -46,6 +46,23 @@ Move **all tabs** from the active pane into an adjacent pane, collapsing the spl
 | Merge active pane into top pane | Move all tabs to the top pane |
 | Merge active pane into bottom pane | Move all tabs to the bottom pane |
 
+## Installation
+
+This plugin is not yet listed in the Obsidian community plugin directory. To install it manually:
+
+1. Download or clone this repository into your vault's plugin folder: `<vault>/.obsidian/plugins/tab-pane-navigator/`
+2. Ensure `main.js` and `manifest.json` are present in that folder.
+3. Open Obsidian → **Settings → Community plugins** and enable **Tab Pane Navigator**.
+
+### Building from source
+
+```bash
+npm install
+npm run build
+```
+
+The compiled `main.js` will be placed in the project root, ready to copy into your vault.
+
 ## Usage
 
 All commands are available via the **Command Palette** (`Ctrl/Cmd + P`). Search for "top pane" to see the full list. Assign hotkeys to any command under **Settings → Hotkeys** for the fastest workflow.
